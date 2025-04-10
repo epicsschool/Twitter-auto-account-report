@@ -10,14 +10,14 @@ driver.maximize_window()
 driver.get("https://twitter.com/i/flow/login")
 time.sleep(5)
 email = driver.find_element_by_name('text')
-email.send_keys("xuser123") #replace with your twitter account 
+email.send_keys("MimicedToppin") #replace with your twitter account 
 email.send_keys(Keys.ENTER)
 time.sleep(3)
 password = driver.find_element_by_name("password") 
-password.send_keys("Twitter123")#replace with your twitter password 
+password.send_keys("epicsstufff2")#replace with your twitter password 
 password.send_keys(Keys.ENTER)
 time.sleep(4)
-driver.get('https://twitter.com/samuraipreneur') #replace with username which you want to report that account after .com/
+driver.get('https://twitter.com/Celeste_Treal') #replace with username which you want to report that account after .com/
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/div/div/div[1]/div[2]/div[1]/div').click()#id click
 time.sleep(3)
